@@ -18,6 +18,3 @@
 #git clone https://github.com/MrH723/openwrt-packages.git package/openwrt-packages
 # 添加插件源码
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-# passwall依赖
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-#====================================================================
