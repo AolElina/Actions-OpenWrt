@@ -16,4 +16,8 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/MrH723/openwrt-packages.git package/openwrt-packages
-sed -i '$a src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
+# 添加插件源码
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# passwall依赖
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+#====================================================================
